@@ -1,0 +1,38 @@
+
+@font-face {
+    font-family: 'gap_sansblack';
+    src: url('fonts/gapsansblack-webfont.woff2') format('woff2'),
+         url('fonts/gapsansblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body 
+{
+	background-color:lightcoral;
+}
+a 
+{
+	font-size:10px;
+	font-family:"futura-pt", sans-serif;
+	color:lightyellow;
+}
+
+h3
+{
+	font-family:"futura-pt", sans-serif;
+	font-weight:800;
+	font-style:normal;
+	font-size:10px;
+	color:#152238;
+
+}
+
+p
+{
+	font-family: 'gap_sansblack', sans-serif;
+	font-size:13px;
+	letter-spacing:1.3px;
+	transform:scale(1,.9);
+	color:lightyellow;
+}
