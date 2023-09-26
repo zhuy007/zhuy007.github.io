@@ -1,0 +1,47 @@
+body 
+{
+	background-color:#152238;
+}
+
+a 
+{
+	font-size:15px;
+	font-family:timesnewroman;
+	color:lightcoral;
+}
+
+b
+{
+	font-size:10px;
+	color:lightcoral;
+}
+
+h1
+{
+	font-size:55px;
+	font-family:timesnewroman;
+	color:#FFFFE0;
+}
+
+div 
+{
+
+}
+
+pre
+{
+	font-size:15px;
+	color:lightyellow;
+}
+h2
+{
+	font-size:15px ;
+	font-family:verdana;
+	color:lightcoral;
+}
+h3
+{
+	font-size:10px;
+	font-family:verdana;
+	color:lightcoral;
+}
