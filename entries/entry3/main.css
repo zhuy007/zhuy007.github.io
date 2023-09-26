@@ -9,6 +9,12 @@
 }
 body 
 {
+ background-image: url("flowers.jpeg");
+ background-color: #cccccc;
+}
+
+body 
+{
 	background-color:lightcoral;
 }
 a 
