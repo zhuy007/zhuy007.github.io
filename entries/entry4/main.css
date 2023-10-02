@@ -3,7 +3,7 @@ p {
 	font-weight:800;
 	font-style:normal;
 	font-size:13px;
-	color:lightyellow;
+	color:#3F3DC2;
 	letter-spacing:1.3px;
 	text-align: right;
 	padding: 5px;
@@ -15,17 +15,17 @@ p {
 
 p {
 	transition: 0.4s;
-	opacity:0;
+	opacity:0.5;
 }
 
 p:hover {
 	opacity:1;
-	color:lightyellow;
+	color:#fff;
 	text-shadow: 0 0 10px #fff,
-				 0 0 20px #fff,
-				 0 0 40px #fff,
-				 0 0 80px #fff,
-				 0 0 120px #fff;
+				 0 0 20px #C0C23D,
+				 0 0 40px #C0C23D,
+				 0 0 80px #C0C23D,
+				 0 0 120px #C0C23D;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
 a {
 	font-size:10px;
 	font-family:"futura-pt", sans-serif;
-	color:lightcoral;
+	color:#3F3DC2;
 }
 
 a {
@@ -45,7 +45,7 @@ a {
 }
 
 a:hover {
-	color:lightcoral;
+	color:#C0C23D;
 	text-shadow: 0 0 10px #fff,
 				 0 0 20px #fff,
 				 0 0 40px #fff;
@@ -54,7 +54,7 @@ a:hover {
 b {
 	font-size:10px;
 	font-family:"futura-pt", sans-serif;
-	color:whitesmoke;
+	color:#C0C23D;
 	letter-spacing:1.3px;
 	text-align: right;
 	padding: 5px;
@@ -101,7 +101,7 @@ body {
 	transition: all 1.5s linear;
 	font-size:10px;
 	font-family:"futura-pt", sans-serif;
-	color:whitesmoke;
+	color:#C0C23D;
 	letter-spacing:1.3px;
 }
 
@@ -109,7 +109,7 @@ body {
 	opacity:1;
 	font-size:10px;
 	font-family:"futura-pt", sans-serif;
-	color:whitesmoke;
+	color: #C0C23D;
 	letter-spacing:1.3px;
 	cursor: none;
 }
