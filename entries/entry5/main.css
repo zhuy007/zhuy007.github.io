@@ -1,0 +1,299 @@
+body {
+ background-image: url("pigeon_background.png");
+ background-color: #cccccc;
+ background-size: cover;
+ background-attachment: scroll;
+ font-family: font-family: 'Dela Gothic One', cursive;
+ font-size: 20px;
+ font-weight: 800;
+ color: darkred;
+}
+
+a {
+  font-size:10px;
+  font-family:"futura-pt", sans-serif;
+  color: lightyellow;
+  padding-left: 15px;
+}
+
+.pigeon1 {
+  position: absolute;
+  top: 1010px;
+  left:1200px;
+  width:50px; 
+  height:auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.text1 {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 800;
+  font-size:20px;
+  color:orangered;
+  left:150px;
+  top:0px;
+  opacity: 0;
+}
+
+.pigeon1:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+  opacity:1;
+}
+
+.pigeon1:hover .text1{
+  font-size: 30px;
+  opacity:1;
+}
+
+.pigeon2{
+  position: absolute ;
+  top: 1650px;
+  left: 300px;
+  width: 150px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.pigeon2:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon3{
+  position: absolute ;
+  top: 870px;
+  left: 450px;
+  width: 150px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.text3 {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 800;
+  font-size:20px;
+  color:orangered;
+  left:150px;
+  top:10px;
+  opacity:0;
+}
+
+.pigeon3:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon3:hover .text3{
+  animation: shake 1.5s ease-in-out infinite;
+  font-size: 50px;
+  opacity:1;
+}
+
+.pigeon4{
+  position: absolute ;
+  top: 390px;
+  left: 280px;
+  width: 170px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.pigeon4:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon5{
+  position: absolute ;
+  top: 810px;
+  left: 95px;
+  width: 60px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.text5 {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 400;
+  font-size:15px;
+  color:orangered;
+  /*left:250px;
+  top:0px; */
+  opacity:0;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+
+.pigeon5:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon5:hover .text5{
+  animation: shake 1.5s ease-in-out infinite;
+  font-size: 15px;
+  opacity:1;
+}
+
+.pigeon6{
+  position: absolute ;
+  top: 1450px;
+  left: 0px;
+  width: 400px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.pigeon6:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon7{
+  position: absolute ;
+  top: 555px;
+  left: 1080px;
+  width: 100px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.text7 {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 400;
+  font-size:15px;
+  color:#002fa7;
+  opacity:0;
+  margin-right: -5px;
+  margin-top: 0px;
+}
+
+.pigeon7:hover {
+  animation: shake 0.6s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon7:hover .text7{
+  animation: shake 1.5s ease-in-out infinite;
+  font-size: 15px;
+  opacity:1;
+}
+
+.pigeon8{
+  position: absolute ;
+  top: 1100px;
+  left: 1245px;
+  width: 150px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.text8 {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 400;
+  font-size:15px;
+  color:orangered;
+  opacity:0;
+  text-align: left;
+  right: 150px;
+  margin-top: -450px;
+}
+
+.pigeon8:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon8:hover .text8{
+  animation: shake 0.8s ease-in-out infinite;
+  font-size: 15px;
+  opacity:1;
+}
+
+.pigeon9{
+  position: absolute ;
+  top: 685px;
+  left: 800px;
+  width: 180px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.text9 {
+  font-family: "Dela Gothic One", cursive;
+  font-weight: 400;
+  font-size:15px;
+  color:orangered;
+  /*left:250px;
+  top:0px; */
+  opacity:0;
+  margin-right: 50px;
+  margin-top: -500px;
+}
+
+.pigeon9:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon9:hover .text9{
+  animation: shake 1.5s ease-in-out infinite;
+  font-size: 50px;
+  opacity:1;
+}
+
+.pigeon10{
+  position: absolute ;
+  top: 1620px;
+  left: 800px;
+  width: 90px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.pigeon10:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+.pigeon11{
+  position: absolute ;
+  top: 950px;
+  left: 1075px;
+  width: 30px;
+  height: auto;
+  transition: all 0.2s ease-in-out;
+}
+
+.pigeon11:hover {
+  animation: shake 0.4s ease-in-out infinite;
+  cursor: pointer;
+}
+
+@keyframes shake{
+  0%{
+    transform: rotate(0);
+  }
+  25%{
+    transform: rotate(20deg);
+  }
+  50%{
+    transform: rotate(-20deg);
+  }
+  75%{
+    transform: rotate(20deg);
+  }
+  100%{
+    transform: rotate(-20deg);
+  }
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+
