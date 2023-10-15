@@ -1,0 +1,54 @@
+body {
+  background-color: #FF7272;
+  font-family: monospace;
+  padding: 50px;
+}
+
+h1, h2 {
+  font-weight:normal;
+  text-align: center;
+}
+
+h1 {
+  font-size:60px;
+  margin-bottom: -30px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* If the browser window is smaller than 650px, the background color will change to black and the text to white: */
+@media (max-width: 650px) {
+  body {
+    background-color: black;
+    color:  white;
+  }
+}
+
+
+/* If the browser window is shorter than 650px, the background will turn orange */
+
+
+@media (max-height: 650px) {
+  body {
+    background-color: orange;
+  }
+  h1 {
+    font-size:35px;
+    margin-bottom:0;
+  }
+  h2 {
+    font-size: 25px;
+    margin-bottom: 0;
+  }
+

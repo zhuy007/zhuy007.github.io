@@ -1,0 +1,303 @@
+
+body {
+ background-color: #bcb2b0;
+ background-size: cover;
+ font-family: font-family: 'Dela Gothic One', cursive;
+ font-size: 20px;
+ font-weight: 800;
+ color: black;
+ margin: 0px;
+}
+
+.marquee {
+   	background-color: #933231;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%; 
+    animation: marquee 20s linear infinite; 
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
+}
+
+a {
+  font-size:18px;
+  font-family:"futura-pt", sans-serif;
+  color: #eeecd5;
+  margin: 0px;
+  vertical-align: center;
+}
+
+.textbox {
+	height: 250px;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+
+.title {
+	background-color: #eeecd5;
+	color: #933231;
+	font-family:"futura-pt", sans-serif;
+	font-size: 200px;
+	margin: 0px;
+	width: 100%;
+	text-align: center;
+	vertical-align: baseline;
+	bottom: 0px;
+}
+
+.poster1{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 50px;
+  	left: 500px;
+  	width: 250px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+.poster1:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster2{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 350px;
+  	left: 500px;
+  	width: 140px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster2:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster3{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 100px;
+  	left: 200px;
+  	width: 160px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster3:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster4{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 50px;
+  	left: 200px;
+  	width: 200px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster4:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster5{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 100px;
+  	left: 180px;
+  	width: 150px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster5:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster6{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 130px;
+  	left: -80px;
+  	width: 70px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster6:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster7{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 320px;
+  	left: 100px;
+  	width: 80px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster7:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster8{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: -70px;
+  	left: -900px;
+  	width: 60px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster8:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster9{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: -90px;
+  	left: -920px;
+  	width: 80px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster9:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster10{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 120px;
+  	left: -900px;
+  	width: 100px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster10:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster11{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: -150px;
+  	left: 290px;
+  	width: 120px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster11:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster12{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 10px;
+  	left: 330px;
+  	width: 280px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster12:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster13{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: -330px;
+  	left: 300px;
+  	width: 60px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster13:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster14{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: 40px;
+  	left: 200px;
+  	width: 90px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster14:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.poster15{
+	-webkit-filter: grayscale(100%);
+  	position: relative ;
+  	top: -60px;
+  	left: 400px;
+  	width: 110px;
+  	height: auto;
+  	transition: all 0.3s ease;
+}
+
+.poster15:hover {
+	-webkit-filter: grayscale(0%); 
+}
+
+.posters {
+	max-width: 1500px;
+	margin: 0 auto;
+	}
+
+@media (max-width: 1050px) {
+  .title {
+  	background-color: #933231;
+  	color: #eeecd5;
+  	font-size: 150px;
+  	height: 100%;
+  	margin:0;
+  	top:0;
+
+  }
+}
+
+@media (max-width: 780px) {
+.textbox {
+	height: 350px;
+	width: 100%;
+	display: flex;
+	align-items: flex-end;
+}
+}
+
+@media (max-width: 1250px) {
+.posters {
+	max-width: 600px;
+	margin: 0 auto;
+}
+}
+
+
+
