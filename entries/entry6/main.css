@@ -1,7 +1,9 @@
 
 body {
+ background-image: url("background.jpg");
  background-color: #bcb2b0;
  background-size: cover;
+ background-attachment: scroll;
  font-family: font-family: 'Dela Gothic One', cursive;
  font-size: 20px;
  font-weight: 800;
@@ -38,7 +40,7 @@ a {
   vertical-align: center;
 }
 
-.textbox {
+textbox {
 	height: 250px;
 	width: 100%;
 	display: flex;
@@ -46,7 +48,7 @@ a {
 }
 
 .title {
-	background-color: #eeecd5;
+/*	background-color: #eeecd5;*/
 	color: #933231;
 	font-family:"futura-pt", sans-serif;
 	font-size: 200px;
@@ -55,6 +57,12 @@ a {
 	text-align: center;
 	vertical-align: baseline;
 	bottom: 0px;
+	opacity: 0;
+}
+
+.title:hover{
+	opacity: 1;
+	transition: all 0.2s ease-in-out;
 }
 
 .poster1{
@@ -273,7 +281,7 @@ a {
 
 @media (max-width: 1050px) {
   .title {
-  	background-color: #933231;
+/*  	background-color: #933231;*/
   	color: #eeecd5;
   	font-size: 150px;
   	height: 100%;
