@@ -8,8 +8,8 @@ p {
 	text-align: right;
 	padding: 5px;
 	left: 1000px;
-	bottom: 5px;
-	position: fixed;
+	top: 600px;
+	position: absolute;
 }
 
 p {
@@ -30,6 +30,7 @@ body {
  background-image: url("ground.JPG");
  background-color: #cccccc;
  background-size: 100%;
+ overflow: scroll;
 }
 
 a {
