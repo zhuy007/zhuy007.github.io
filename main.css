@@ -1,13 +1,150 @@
 body 
 {
+	background-image: url("background.jpg");
 	background-color:#152238;
+	background-size: cover;
+ 	background-attachment: scroll;
+ 	max-width: 100%;
+ 	overflow-x: hidden;
+}
+
+.starglow {
+	color: lightyellow;
+	opacity: 0.8;
+	text-shadow: 0 0 10px #fff,
+				 0 0 20px #fff,
+				 0 0 40px #fff;
+}
+
+.link2 {
+	color: lightcoral;
+	font-size: 18px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral;
+	position: relative;
+}
+
+.link2:hover {
+	content: '';
+	position: relative;
+	left: 0;
+	top: 0;
+	font-size: 30px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral,
+				 0 0 80px lightcoral,
+				 0 0 120px lightyellow,
+				 0 0 140px lightyellow;
+	animation: shining 2.5s infinite;
+}
+
+.link3 {
+	color: lightcoral;
+	left: 1000px;
+	font-size: 18px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral;
+	position: sticky;
+}
+
+.link3:hover {
+	content: '';
+	position: sticky;
+	left: 1000px;
+	top: 0;
+	font-size: 30px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral,
+				 0 0 80px lightcoral,
+				 0 0 120px lightyellow,
+				 0 0 140px lightyellow;
+	animation: shining 2.5s infinite;
+}
+
+.link4 {
+	color: lightcoral;
+	left: 850px;
+	font-size: 18px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral;
+	position: sticky;
+}
+
+.link4:hover {
+	content: '';
+	position: sticky;
+	left: 850px;
+	top: 0;
+	font-size: 30px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral,
+				 0 0 80px lightcoral,
+				 0 0 120px lightyellow,
+				 0 0 140px lightyellow;
+	animation: shining 2.5s infinite;
+}
+
+.link5 {
+	color: lightcoral;
+	left: 350px;
+	font-size: 18px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral;
+	position: sticky;
+}
+
+.link5:hover {
+	content: '';
+	position: sticky;
+	left: 350px;
+	top: 0;
+	font-size: 30px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral,
+				 0 0 80px lightcoral,
+				 0 0 120px lightyellow,
+				 0 0 140px lightyellow;
+	animation: shining 2.5s infinite;
+}
+
+.link6 {
+	color: lightcoral;
+	left: 150px;
+	font-size: 18px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral;
+	position: sticky;
+}
+
+.link6:hover {
+	content: '';
+	position: sticky;
+	left: 150px;
+	top: 0;
+	font-size: 30px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral,
+				 0 0 80px lightcoral,
+				 0 0 120px lightyellow,
+				 0 0 140px lightyellow;
+	animation: shining 2.5s infinite;
 }
 
 a 
 {
-	font-size:15px;
-	font-family:timesnewroman;
-	color:lightcoral;
+	font-size:10px;
+	font-family:"futura-pt", sans-serif;
+ 	color:lightyellow;
 }
 
 b
@@ -19,29 +156,33 @@ b
 h1
 {
 	font-size:55px;
-	font-family:timesnewroman;
+	font-family: 'Baskervville', serif;
 	color:#FFFFE0;
 }
 
-div 
-{
-
-}
-
-pre
-{
-	font-size:15px;
-	color:lightyellow;
-}
 h2
 {
-	font-size:15px ;
-	font-family:verdana;
+	font-size:13px ;
+ 	font-family: "Dela Gothic One", cursive;
 	color:lightcoral;
 }
 h3
 {
 	font-size:10px;
-	font-family:verdana;
+ 	font-family: "Dela Gothic One", cursive;
 	color:lightcoral;
+	padding-left: 5px;
+}
+
+@keyframes shining {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity:1;
+	}
+	100% {
+		opacity: 0;
+	}
+	}
 }

@@ -16,7 +16,7 @@ body {
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    position: relative;
+    position: sticky;
     box-sizing: border-box;
     border: 0px solid #ccc;
 }
