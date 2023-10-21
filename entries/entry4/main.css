@@ -3,14 +3,13 @@ p {
 	font-weight:800;
 	font-style:normal;
 	font-size:13px;
-	color:#3F3DC2;
+	color:#d65e76;
 	letter-spacing:1.3px;
 	text-align: right;
 	padding: 5px;
 	left: 1000px;
 	bottom: 5px;
 	position: fixed;
-	cursor: none;
 }
 
 p {
@@ -20,12 +19,11 @@ p {
 
 p:hover {
 	opacity:1;
-	color:#fff;
+	color:#d65e76;
 	text-shadow: 0 0 10px #fff,
-				 0 0 20px #C0C23D,
-				 0 0 40px #C0C23D,
-				 0 0 80px #C0C23D,
-				 0 0 120px #C0C23D;
+				 0 0 20px #fff,
+				 0 0 40px #fff,
+				 0 0 80px #fff,
 }
 
 body {
@@ -37,17 +35,15 @@ body {
 a {
 	font-size:10px;
 	font-family:"futura-pt", sans-serif;
-	color:#3F3DC2;
-}
-
-a {
-	transition: 0.3s;
+	color:#d65e76;
+	padding-left: 10px;
+	transition: 0.1s ease-in-out;
 }
 
 a:hover {
-	color:#C0C23D;
-	text-shadow: 0 0 10px #fff,
-				 0 0 20px #fff,
+	color:#d65e76;
+	text-shadow: 0 0 10px #d65e76,
+				 0 0 20px #d65e76,
 				 0 0 40px #fff;
 }
 
@@ -79,7 +75,7 @@ b:hover {
 body {
     margin: 0;
     padding: 0;
-    cursor: none;
+/*    cursor: none;*/
     overflow: hidden;
 }
 
@@ -111,11 +107,11 @@ body {
 	font-family:"futura-pt", sans-serif;
 	color: #C0C23D;
 	letter-spacing:1.3px;
-	cursor: none;
+/*	cursor: none;*/
 }
 .poster-thumb img {
     max-width: 360px;
-    opacity: 0;
+    opacity: 0.3;
     transition: all 0.3s linear;
     transform-origin: 90% center;
 }
@@ -123,4 +119,8 @@ body {
 .poster-item:hover .poster-thumb img {
     opacity: 0.9;
     transform: scale(1);
+}
+
+.custom {
+	cursor: url('cursor.png'), auto;
 }
