@@ -9,7 +9,7 @@
 }
 body 
 {
- background-image: url("flowers.jpeg");
+ background-image: url("flowers.jpg");
  background-color: #cccccc;
 }
 
@@ -30,7 +30,7 @@ h3
 	font-weight:800;
 	font-style:normal;
 	font-size:10px;
-	color:#152238;
+	color:lightyellow;
 
 }
 
@@ -40,5 +40,30 @@ p
 	font-size:13px;
 	letter-spacing:1.3px;
 	transform:scale(1,.9);
-	color:lightyellow;
+	color:#e1e1dd;
+	padding: 0;
+	position: sticky;
+}
+
+.marquee {
+/*   	background-color: #777b4a;*/
+	width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    position: sticky;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    margin-top: 550px;
+    padding:0;
+}
+
+.marquee span {
+    display: inline-block;
+    padding-left: 100%; 
+    animation: marquee 25s linear infinite; 
+}
+
+@keyframes marquee {
+    0%   { transform: translateX(0%); }
+    100% { transform: translateX(-100%); }
 }
