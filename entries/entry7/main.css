@@ -1,0 +1,165 @@
+body {
+ background-image: url("background.png");
+ background-color: #cccccc;
+ background-size: cover;
+ background-attachment: scroll;
+ width: 100%;
+ font-family: 'Dela Gothic One', cursive;
+ font-size: 15px;
+ font-weight: 800;
+ color: lightyellow;
+}
+
+.t1 {
+    position: relative;
+    display: inline-block;
+    margin-left: 400px;
+    margin-top: 550px;
+}
+
+.t1 .t1-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t1:hover .t1-hover {
+    display: inline;
+}
+
+.t2 {
+    position: relative;
+    display: inline-block;
+    margin-left: 200px;
+    top: 250px;
+}
+
+.t2 .t2-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t2:hover .t2-hover {
+    display: inline;
+}
+
+.t3 {
+    position: relative;
+    display: inline-block;
+    margin-left: 350px;
+    top: 70px;
+}
+
+.t3 .t3-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t3:hover .t3-hover {
+    display: inline;
+ }
+
+.t4 {
+    position: relative;
+    display: inline-block;
+    scroll-margin-left: -20px;
+    scroll-margin-top: 450px;
+}
+
+.t4 .t4-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t4:hover .t4-hover {
+    display: inline;
+}
+
+.t5 {
+    position: relative;
+    display: inline-block;
+    left: 950px;
+    bottom: 300px;
+}
+
+.t5 .t5-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t5:hover .t5-hover {
+    display: inline;
+}
+
+.t6 {
+    position: relative;
+    display: inline-block;
+    left: 950px;
+    bottom: 220px;
+}
+
+.t6 .t6-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t6:hover .t6-hover {
+    display: inline;
+}
+
+.t7 {
+    position: relative;
+    display: inline-block;
+    left: 210px;
+    bottom: 220px;
+}
+
+.t7 .t7-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t7:hover .t7-hover {
+    display: inline;
+}
+
+.t8 {
+    position: relative;
+    display: inline-block;
+    left: 530px;
+    bottom: 80px;
+}
+
+.t8 .t8-hover {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.t8:hover .t8-hover {
+    display: inline;
+}
+
+
