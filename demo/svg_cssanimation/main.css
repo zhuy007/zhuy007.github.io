@@ -1,0 +1,44 @@
+body {
+  background: black;
+}
+
+#yin-yang {
+  height:500px;
+  animation: yinyangSpin 5s ease-out infinite;
+}
+
+#yin-yang:hover {
+  animation-play-state: paused;
+  cursor: pointer;
+}
+
+#yin-yang path, #yin-yang circle {
+  animation: yinyangFill 5s ease-in infinite alternate, fade 5s ease-in infinite alternate-reverse, fade 5s ease-in infinite alternate;
+}
+
+@keyframes yinyangSpin {
+  0% {
+    transform: rotate(0turn);
+  }
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes yinyangFill {
+  0% {
+    fill: default;
+  }
+  100% {
+    fill: #6d79cd;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

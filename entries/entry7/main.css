@@ -10,6 +10,28 @@ body {
  color: lightyellow;
 }
 
+a {
+    position: fixed;
+    top: 10px;
+    color: lightyellow;
+    font-size: 10px;
+    animation: glow2 3s ease-in-out infinite;
+}
+
+#Layer_1 {
+    height:25px;
+    position: fixed;
+    bottom: 20px;
+    animation: glow 1.5s ease-in-out infinite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .t1 {
     position: relative;
     display: inline-block;
@@ -162,4 +184,20 @@ body {
     display: inline;
 }
 
+@keyframes glow {
+    0% {
+        filter: drop-shadow( 0 0 10px #fff) drop-shadow( 0 0 20px #fffde9) drop-shadow( 0 0 30px lightyellow);
+    }
+    100% {
+        filter: drop-shadow( 0 0 10px #fff) drop-shadow( 0 0 20px #fffde9) drop-shadow( 0 0 30px lightyellow), drop-shadow( 0 0 60px #fff) drop-shadow( 0 0 80px #fffde9) drop-shadow( 0 0 120px #lightyellow);
+    }
+}
 
+@keyframes glow2 {
+    0% {
+        filter: drop-shadow( 0 0 10px #fff) drop-shadow( 0 0 20px #fffde9) drop-shadow( 0 0 25px lightyellow);
+    }
+    100% {
+        filter: drop-shadow( 0 0 30px #fff) drop-shadow( 0 0 40px #fffde9) drop-shadow( 0 0 50px #lightyellow);
+    }
+}
