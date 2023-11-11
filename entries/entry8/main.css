@@ -1,18 +1,138 @@
-.cls-1 {
-  fill: #be1e2d;
-/*  height:200px;*/
-/*  animation: spin 1s ease-out infinite;*/
+body {
+  background-image: url("background.jpg");
+  background-color: whitesmoke;
+  background-size: cover;
+  background-attachment: scroll;
+  width: 100%;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 15px;
+  font-weight: 800;
+  color: black;
 }
 
-#Layer_1 {
-  height:200px;
-  animation: spin 3s ease-out infinite;
+a {
+  position: fixed;
+  top: 10px;
+  color: white;
+  font-size: 10px;
+  z-index: 2;
 }
-@keyframes spin{
+
+.rectangle {
+  height: 730px;
+  width: 1380px;
+  position: center;
+  background-color: black;
+  opacity: 0.4;
+  filter: blur(12px);
+}
+
+.button {
+  text-align: center;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 17px;
+  text-color: black;
+  bottom: 270px;
+  left: 110px;
+  position: fixed;
+  z-index: 2;
+}
+
+.button:hover {
+  color: whitesmoke;
+}
+
+.title {
+  font-family:"futura-pt", sans-serif;
+  font-size: 15px;
+  text-color: black;
+  top: 10px;
+  left: 40%;
+  letter-spacing: 0.5px;
+  text-align: center;
+  position: fixed;
+}
+
+.date {
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 12px;
+  text-color: black;
+  right: 20px;
+  position: fixed;
+}
+
+#count {
+  text-align: left;
+  font-size: 13px;
+  color: darkred;
+  letter-spacing: 0.5px;
+  bottom: 0;
+  position: fixed;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.unblurred {
+  background-color:  black;
+  color:  white;
+}
+
+.off {
+  height: 730px;
+  width: 1380px;
+  position: center;
+  background-color: grey;
+  opacity: 0;
+  filter: blur(12px);
+}
+
+.text {
+  color: darkred;
+}
+
+.text:hover {
+  color: whitesmoke;
+}
+
+.welcome {
+  position: fixed;
+  opacity: 0%;
+  width: 100%;
+  height:100%;
+  left:0;
+  top:0;
+  background-color: black;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  animation: title 5.5s;
+}
+
+h1 {
+  display: block;
+  font-family:"futura-pt", sans-serif;
+  text-size: 9px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  opacity: 0%;
+  animation: title 5.5s;
+  animation-delay: 1s;
+}
+
+@keyframes title {
   0% {
-    transform: rotate(0turn);
+    opacity: 100%;
+  }
+  50% {
+    opacity: 100%;
   }
   100% {
-    transform: rotate(1turn);
+    opacity: 0%;
   }
 }
+
