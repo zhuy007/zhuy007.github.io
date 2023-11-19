@@ -18,6 +18,14 @@ body {
   color: whitesmoke;
 }
 
+a {
+  position: fixed;
+  top: 10px;
+  color: white;
+  font-size: 10px;
+  z-index: 2;
+}
+
 .title {
   position: fixed;
   opacity: 0%;
