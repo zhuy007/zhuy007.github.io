@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'gap_sansblack';
+    src: url('fonts/gapsansblack-webfont.woff2') format('woff2'),
+         url('fonts/gapsansblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-color: whitesmoke;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100%;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 10px;
+  font-weight: 800;
+  color: whitesmoke;
+}
+
+.title {
+  position: fixed;
+  opacity: 0%;
+  width: 100%;
+  height:100%;
+  left:0;
+  top:0;
+  margin: 0;
+  padding-left: 20px;
+  background-image: url("intro.jpg");
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: 'gap_sansblack', sans-serif;
+  font-size: 20px;
+  animation: title 8s;
+}
+
+section .grid div:nth-child(1):hover{
+  animation-play-state: running;
+}
+
+section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section .grid {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left:0;
+  pointer-events: none;
+  display: block;
+}
+
+section .grid div{
+  position: absolute;
+  display: block;
+}
+
+section .grid div:nth-child(1){
+  top: 80%;
+  left: 80%;
+  animation: fall 10s linear infinite;
+  animation-delay: -5s;
+}
+
+section .grid div:nth-child(2){
+  top: 65%;
+  left: 85%;
+  animation: fall 18s linear infinite;
+  animation-delay: -1s;
+}
+
+section .grid div:nth-child(3){
+  top: 50%;
+  left: 75%;
+  animation: fall 14s linear infinite;
+  animation-delay: -7s;
+}
+
+section .grid div:nth-child(4){
+  top: 35%;
+  left: 83%;
+  animation: fall 16s linear infinite;
+  animation-delay: -5s;
+}
+
+section .grid div:nth-child(5){
+  top: 20%;
+  left: 77%;
+  animation: fall 12s linear infinite;
+  animation-delay: -5s;
+}
+
+
+section .grid div:nth-child(6){
+  top: 80%;
+  left: 65%;
+  animation: fall 11s linear infinite;
+  animation-delay: -5s;
+}
+
+section .grid div:nth-child(7){
+  top: 65%;
+  left: 70%;
+  animation: fall 13s linear infinite;
+  animation-delay: -3s;
+}
+
+section .grid div:nth-child(8){
+  top: 50%;
+  left: 60%;
+  animation: fall 15s linear infinite;
+  animation-delay: -5s;
+}
+
+section .grid div:nth-child(9){
+  top: 35%;
+  left: 63%;
+  animation: fall 17s linear infinite;
+  animation-delay: -2s;
+}
+
+section .grid div:nth-child(10){
+  top: 20%;
+  left: 72%;
+  animation: fall 19s linear infinite;
+  animation-delay: -5s;
+}
+
+
+section .grid div:nth-child(11){
+  top: 80%;
+  left: 50%;
+  animation: fall 15s linear infinite;
+  animation-delay: -7s;
+}
+
+section .grid div:nth-child(12){
+  top: 65%;
+  left: 55%;
+  animation: fall 14s linear infinite;
+  animation-delay: -3s;
+}
+
+section .grid div:nth-child(13){
+  top: 50%;
+  left: 45%;
+  animation: fall 18s linear infinite;
+  animation-delay: -8s;
+}
+
+section .grid div:nth-child(14){
+  top: 35%;
+  left: 53%;
+  animation: fall 12s linear infinite;
+  animation-delay: -9s;
+}
+
+section .grid div:nth-child(15){
+  top: 20%;
+  left: 48%;
+  animation: fall 17s linear infinite;
+  animation-delay: -10s;
+}
+
+
+section .grid div:nth-child(16){
+  top: 80%;
+  left: 35%;
+  animation: fall 10s linear infinite;
+  animation-delay: -8s;
+}
+
+section .grid div:nth-child(17){
+  top: 65%;
+  left: 40%;
+  animation: fall 12s linear infinite;
+  animation-delay: -5s;
+}
+
+section .grid div:nth-child(18){
+  top: 50%;
+  left: 30%;
+  animation: fall 18s linear infinite;
+  animation-delay: -7s;
+}
+
+section .grid div:nth-child(19){
+  top: 35%;
+  left: 33%;
+  animation: fall 10s linear infinite;
+  animation-delay: -9s;
+}
+
+section .grid div:nth-child(20){
+  top: 20%;
+  left: 38%;
+  animation: fall 17s linear infinite;
+  animation-delay: -7s;
+}
+
+
+section .grid div:nth-child(21){
+  top: 80%;
+  left: 20%;
+  animation: fall 14s linear infinite;
+  animation-delay: -10s;
+}
+
+section .grid div:nth-child(22){
+  top: 65%;
+  left: 25%;
+  animation: fall 14s linear infinite;
+  animation-delay: -8s;
+}
+
+section .grid div:nth-child(23){
+  top: 50%;
+  left: 15%;
+  animation: fall 10s linear infinite;
+  animation-delay: -9s;
+}
+
+section .grid div:nth-child(24){
+  top: 35%;
+  left: 17%;
+  animation: fall 18s linear infinite;
+  animation-delay: -9s;
+}
+
+section .grid div:nth-child(25){
+  top: 20%;
+  left: 22%;
+  animation: fall 15s linear infinite;
+  animation-delay: -5s;
+}
+
+@keyframes fall {
+  0% 
+  {
+    opacity: 0;
+    top:-10%;
+    transform: translateX(80px);
+  }
+  10%
+  {
+    opacity: 0.2;
+  }
+  20%
+  {
+    opacity: 1;
+    transform: translateX(-60px);
+  }
+  40%
+  {
+    transform: translateX(70px);
+  }
+  60%
+  {
+    transform: translateX(-100px);
+  }
+  80%
+  {
+    transform: translateX(40px);
+  }
+  100%
+  {
+    top:110%;
+    transform: translateX(-80px);
+  }
+}
+
+
+@keyframes title {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 100%;
+  }
+  100% {
+    opacity: 0%;
+  }
+}
