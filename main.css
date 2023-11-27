@@ -215,6 +215,30 @@ body
 	animation: shining 2.5s infinite;
 }
 
+.link10 {
+	color: lightcoral;
+	left: 150px;
+	font-size: 18px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral;
+	position: sticky;
+}
+
+.link10:hover {
+	content: '';
+	position: sticky;
+	left: 150px;
+	top: 0;
+	font-size: 30px;
+	text-shadow: 0 0 10px lightcoral,
+				 0 0 20px lightcoral,
+				 0 0 40px lightcoral,
+				 0 0 80px lightcoral,
+				 0 0 120px lightyellow,
+				 0 0 140px lightyellow;
+	animation: shining 2.5s infinite;
+}
 
 
 a 

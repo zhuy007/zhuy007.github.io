@@ -1,0 +1,70 @@
+body {
+  background-color: #e3e0d5;
+  background-size: cover;
+  background-attachment: scroll;
+  height: 250vh;
+}
+
+a {
+  position: fixed;
+  top: 10px;
+  color: #d51b1f;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 10px;
+  z-index: 2;
+}
+
+.text {
+  position: sticky;
+  padding-left: 70px;
+  top: 5px;
+  color: #d51b1f;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 50px;
+}
+
+.xmas {
+  position: fixed;
+  bottom: 10px;
+  right: 80px;
+  text-align: right;
+  color: #d51b1f;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 50px;
+  animation: blink 2.5s infinite;
+}
+
+.xmas:hover + .hide {
+  display: block;
+  color: #d51b1f;
+  text-align: center;
+  padding-top: 15%;
+  font-family: 'Dela Gothic One', cursive;
+  font-size: 10px;
+}
+
+.hide {
+  display: none;
+}
+
+svg {
+  position: fixed;
+  left: 20%;
+  top:8%;
+  width: 60%;
+}
+
+.image {
+  position: fixed;
+  width:50%;
+  height:50%;
+}
+
+@keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+}
