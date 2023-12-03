@@ -19,8 +19,9 @@ body
 }
 a 
 {
-	font-size:10px;
-	font-family:"futura-pt", sans-serif;
+	font-family: 'Dela Gothic One', cursive;
+ 	font-size: 10px;
+ 	font-weight: 800;
 	color:lightyellow;
 }
 
@@ -34,7 +35,7 @@ h3
 
 }
 
-p
+/*p
 {
 	font-family: 'gap_sansblack', sans-serif;
 	font-size:13px;
@@ -44,18 +45,27 @@ p
 	padding: 0;
 	position: sticky;
 }
-
+*/
 .marquee {
-/*   	background-color: #777b4a;*/
 	width: 100%;
     white-space: nowrap;
     overflow: hidden;
-    position: sticky;
     box-sizing: border-box;
     border: 0px solid #ccc;
     margin-top: 550px;
-    padding:0;
+    font-family: 'gap_sansblack', sans-serif;
+	font-size:13px;
+	letter-spacing:1.3px;
+	transform:scale(1,.9);
+	color:#e1e1dd;
+	padding: 0;
+	position: sticky;
 }
+
+.marquee span:hover {
+	animation-play-state: paused;
+}
+
 
 .marquee span {
     display: inline-block;
