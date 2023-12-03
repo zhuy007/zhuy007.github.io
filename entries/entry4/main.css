@@ -1,25 +1,25 @@
 p {
-	font-family:"futura-pt", sans-serif;
+	font-family: 'Dela Gothic One', cursive;
 	font-weight:800;
 	font-style:normal;
 	font-size:13px;
 	color:#d65e76;
-	letter-spacing:1.3px;
+	letter-spacing:1px;
 	text-align: right;
-	padding: 5px;
-	left: 1000px;
-	top: 600px;
+	right: 5%;
+	bottom: 2%;
 	position: absolute;
 }
 
 p {
 	transition: 0.4s;
-	opacity:0.5;
+	opacity:0.3;
 }
 
 p:hover {
 	opacity:1;
 	color:#d65e76;
+	font-size: 20px;
 	text-shadow: 0 0 10px #fff,
 				 0 0 20px #fff,
 				 0 0 40px #fff,
@@ -27,17 +27,26 @@ p:hover {
 }
 
 body {
- background-image: url("ground.JPG");
- background-color: #cccccc;
- background-size: 100%;
- overflow: scroll;
+ 	background-image: url("ground.JPG");
+ 	background-color: #cccccc;
+	background-size: 100%;
+ 	overflow: scroll;
+/*	margin: 0;
+    padding: 0;
+*/    overflow: hidden;
+    font-family: 'Dela Gothic One', cursive;
+	font-size: 15px;
+	font-weight: 800;
+
 }
 
 a {
+	position: fixed;
 	font-size:10px;
-	font-family:"futura-pt", sans-serif;
+	font-family: 'Dela Gothic One', cursive;
 	color:#d65e76;
 	padding-left: 10px;
+	top: 10px;
 	transition: 0.1s ease-in-out;
 }
 
@@ -73,13 +82,6 @@ b:hover {
 				 0 0 40px #fff;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-/*    cursor: none;*/
-    overflow: hidden;
-}
-
 #position {
     width: 100%;
     height: 100vh;
@@ -94,7 +96,7 @@ body {
 }
 
 .poster-thumb:nth-child(odd) {
-	opacity:0;  
+	opacity:0.2;  
 	transition: all 1.5s linear;
 	font-size:10px;
 	font-family:"futura-pt", sans-serif;
@@ -115,13 +117,10 @@ body {
     opacity: 0.3;
     transition: all 0.3s linear;
     transform-origin: 90% center;
+    cursor: url('cursor.png'), auto;
 }
 
 .poster-item:hover .poster-thumb img {
     opacity: 0.9;
     transform: scale(1);
-}
-
-.custom {
-	cursor: url('cursor.png'), auto;
 }

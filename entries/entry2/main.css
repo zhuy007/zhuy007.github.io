@@ -5,14 +5,15 @@ body
 	background-size: cover;
  	background-attachment: scroll;
  	max-width: 100%;
- 	overflow-x: hidden;}
+ 	overflow-x: hidden;
+}
 
 a 
 {
 	font-size:10px;
-	font-family:"futura-pt", sans-serif;
+ 	font-family: 'Dela Gothic One', cursive;
  	color:lightyellow;
- }
+}
 
 .poem {
 	padding-top: 110px;
@@ -20,6 +21,7 @@ a
 	font-size:13px;
 	font-family:"futura-pt", sans-serif;
 	text-align: justify;
+	letter-spacing: 0.8px;
 }
 
 
@@ -33,8 +35,8 @@ h3
 
 .shoe {
 	top:30px;
-	padding-left: 60px;
-	opacity: 0.7;
+	left: 50%;
+	opacity: 0.5;
 }
 
 .shoe:hover {

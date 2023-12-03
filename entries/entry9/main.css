@@ -12,14 +12,14 @@ body {
   background-size: cover;
   background-attachment: scroll;
   height: 100%;
-  font-family: 'Dela Gothic One', cursive;
   font-size: 10px;
-  font-weight: 800;
   color: whitesmoke;
 }
 
 a {
   position: fixed;
+  font-family: 'Dela Gothic One', cursive;
+  font-weight: 800;
   top: 10px;
   color: white;
   font-size: 10px;
@@ -29,26 +29,30 @@ a {
 .title {
   position: fixed;
   opacity: 0%;
+  background-size: cover;
   width: 100%;
   height: 100%;
   left:0;
   top:0;
   margin: 0;
   padding-left: 30px;
-  padding-top: 30px;
+  padding-top: 50px;
   background-image: url("intro2.jpg");
   background-attachment: scroll;
   z-index: 1;
   align-items: center;
   justify-content: center;
   color: whitesmoke;
-  font-family: 'gap_sansblack', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
   font-size: 20px;
   animation: title 8s;
 }
 
-section .grid div:nth-child(1):hover{
-  animation-play-state: paused;
+.image {
+  position: absolute;
+  top:50%;
+  animation: blink 15s infinite;
 }
 
 section {
@@ -67,7 +71,6 @@ section .grid {
   height: 100%;
   top: 0;
   left:0;
-  pointer-events: none;
   display: block;
 }
 
@@ -301,4 +304,17 @@ section .grid div:nth-child(25){
   100% {
     opacity: 0%;
   }
+}
+
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(700px);
+      opacity: 0;
+    }
+    100% {
+      opacity: 0;
+    }
 }

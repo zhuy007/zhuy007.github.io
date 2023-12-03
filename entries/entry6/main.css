@@ -20,6 +20,12 @@ body {
     top: 0;
     box-sizing: border-box;
     border: 0px solid #ccc;
+    z-index: 3;
+}
+
+.marquee a {
+   text-decoration:none;
+/*   color: #da6fe2;*/
 }
 
 .marquee span {
@@ -37,8 +43,10 @@ a {
   font-size:18px;
   font-family:"futura-pt", sans-serif;
   color: #eeecd5;
+  letter-spacing: 0.5px;
   margin: 0px;
   vertical-align: center;
+  z-index: 2;
 }
 
 textbox {
@@ -57,8 +65,9 @@ textbox {
 	width: 100%;
 	text-align: center;
 	vertical-align: baseline;
-	bottom: 0px;
+	padding-top: 10px;
 	opacity: 0;
+	z-index: auto;
 }
 
 .title:hover{
