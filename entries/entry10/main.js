@@ -1,34 +1,34 @@
-let paths = document.querySelectorAll('path');
+// let paths = document.querySelectorAll('path');
 
-fillSvgPaths()
+// fillSvgPaths()
 
-document.addEventListener('scroll', fillSvgPaths)
+// document.addEventListener('scroll', fillSvgPaths)
 
-function fillSvgPaths() {
+// function fillSvgPaths() {
 
-  let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
+//   let scrollPercentage = (document.documentElement.scrollTop + document.body.scrollTop) / (document.documentElement.scrollHeight - document.documentElement.clientHeight);
 
-    for (var i = 0; i < paths.length; i++) {
-      let path = paths[i];
+//     for (var i = 0; i < paths.length; i++) {
+//       let path = paths[i];
 
-      let pathLength = path.getTotalLength();
+//       let pathLength = path.getTotalLength();
 
-      path.style.strokeDasharray = pathLength;
-      path.style.strokeDashoffset = pathLength;
+//       path.style.strokeDasharray = pathLength;
+//       path.style.strokeDashoffset = pathLength;
 
-      let drawLength = pathLength * scrollPercentage;
+//       let drawLength = pathLength * scrollPercentage;
 
-      path.style.strokeDashoffset = pathLength - drawLength;
-      }
-}
+//       path.style.strokeDashoffset = pathLength - drawLength;
+//       }
+// }
 
 
-const srcs = ["imgs/img1.png", "imgs/img2.png", "imgs/img3.png", "imgs/img4.png"];
+let srcs = ["imgs/img1.png", "imgs/img2.png", "imgs/img3.png", "imgs/img4.png"];
 document.onclick = userClicked;
 function userClicked() {
-    var x = event.clientX;
-    var y = event.clientY;
-    const img = document.createElement('img');
+    let x = event.clientX;
+    let y = event.clientY;
+    let img = document.createElement('img');
     img.classList.add('image');
     img.src = srcs[Math.floor(Math.random() * srcs.length)];
     img.width = '150';

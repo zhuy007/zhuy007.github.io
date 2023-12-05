@@ -18,4 +18,3 @@ countDisplay.innerHTML = count + " friends came";
 });
 
 
-
