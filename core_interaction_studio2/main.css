@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'gap_sansblack';
+    src: url('fonts/gapsansblack-webfont.woff2') format('woff2'),
+         url('fonts/gapsansblack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+	background-image: url("pigeon_background_bw.png");
+ 	background-color: #e3e0d5;
+ 	background-size: cover;
+ 	background-attachment: scroll;
+ 	margin: 0; 
+ 	padding: 0;
+}
+
+.word {
+	font-size: 18pt;
+	color: #ff6961;
+	font-family: 'gap_sansblack', sans-serif;
+	width: 400px;
+	animation: fade 20s ease-out;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fade{
+	0%{
+		opacity:1;
+	}
+	20%{
+		opacity:1;
+	}
+	40%{
+		opacity:1;
+	}
+	60%{
+		opacity:1;
+	}
+	80%{
+		opacity:1;
+	}
+	100%{
+		opacity:0;
+	}
+}
+
+.bands {
+	position: absolute;
+	left: 2%;
+	top: 30%;
+	opacity: 0;
+	cursor: pointer;
+	transition: 1s 3s;
+}
+
+.bands:hover {
+	opacity:1;
+	transition: 1s;
+}
+
+.skater {
+	position: absolute;
+	right: 5%;
+	top: 15%;
+	padding: 10px;
+	opacity: 0;
+	cursor: pointer;
+	transition: 1s 3s;
+}
+
+.skater:hover {
+	opacity:1;
+	transition: 1s;
+}
+
+.cameras {
+	position: absolute;
+	left: 38%;
+	top: 18%;
+	padding: 10px;
+	opacity: 0;
+	cursor: pointer;
+	transition: 1s 3s;
+}
+
+.cameras:hover {
+	opacity:1;
+	transition: 1s;
+}
+
+.title {
+ 	position: fixed;
+  	background-color: black;
+  	opacity: 0%;
+   	margin:0;
+   	padding:0;
+   	height: 100%;
+   	width:100%;
+  	padding-top: 48%;
+  	text-align: center;
+  	color: lightyellow;
+	font-family: 'gap_sansblack', sans-serif;
+  	font-size: 20px;
+  	animation: title 14s;
+}
+
+.title2 {
+  	position: fixed;
+  	background-color: black;
+  	opacity: 0%;
+   	margin:0;
+   	padding:0;
+   	height: 100%;
+   	width:100%;
+  	padding-top: 48%;
+  	text-align: center;
+  	color: lightyellow;
+	font-family: 'gap_sansblack', sans-serif;
+  	font-size: 20px;
+  	animation: title 12s;
+  	animation-delay: 7.1s;
+}
+
+.bands2 {
+	animation: title 6s;
+	position: absolute;
+	left: 2%;
+	top: 30%;
+	opacity: 0%;
+}
+
+.skater2 {
+	animation: title 8s;
+	position: absolute;
+	right: 5%;
+	top: 15%;
+	padding: 10px;
+	opacity: 0%;
+}
+
+.cameras2 {
+	position: absolute;
+	left: 38%;
+	top: 18%;
+	padding: 10px;
+	animation: title 7s;
+	opacity: 0%;
+}
+
+@keyframes title {
+	0% {
+    	opacity: 100%;
+  	}
+  	50% {
+    	opacity: 100%;
+  	}
+  	100% {
+    	opacity: 0%;
+  	}
+}
