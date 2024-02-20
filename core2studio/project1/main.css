@@ -8,20 +8,22 @@
 }
 
 body {
-	background-image: url("pigeon_background_bw.png");
- 	background-color: #e3e0d5;
+/*	background-image: url("pigeon_background_bw.png");*/
+ 	background-color: black;
  	background-size: cover;
  	background-attachment: scroll;
  	margin: 0; 
  	padding: 0;
+ 	cursor: url('img/pigeon3.png'),auto;
 }
 
 .word {
+	z-index: 3;
 	font-size: 18pt;
 	color: #ff6961;
 	font-family: 'gap_sansblack', sans-serif;
 	width: 400px;
-	animation: fade 20s ease-out;
+	animation: fade 22s ease-out;
 	animation-fill-mode: forwards;
 }
 
@@ -51,7 +53,7 @@ body {
 	left: 2%;
 	top: 30%;
 	opacity: 0;
-	cursor: pointer;
+	z-index: 2;
 	transition: 1s 3s;
 }
 
@@ -66,7 +68,7 @@ body {
 	top: 15%;
 	padding: 10px;
 	opacity: 0;
-	cursor: pointer;
+	z-index: 2;
 	transition: 1s 3s;
 }
 
@@ -81,11 +83,26 @@ body {
 	top: 18%;
 	padding: 10px;
 	opacity: 0;
-	cursor: pointer;
+	z-index: 2;
 	transition: 1s 3s;
 }
 
 .cameras:hover {
+	opacity:1;
+	transition: 1s;
+}
+
+.man {
+	position: absolute;
+	left: 0;
+	top: 55%;
+/*	padding: 10px;*/
+	opacity: 0;
+	z-index: 1;
+	transition: 3s 5s;
+}
+
+.man:hover {
 	opacity:1;
 	transition: 1s;
 }
@@ -100,7 +117,7 @@ body {
    	width:100%;
   	padding-top: 48%;
   	text-align: center;
-  	color: lightyellow;
+  	color: #9eedf8;
 	font-family: 'gap_sansblack', sans-serif;
   	font-size: 20px;
   	animation: title 14s;
@@ -116,7 +133,7 @@ body {
    	width:100%;
   	padding-top: 48%;
   	text-align: center;
-  	color: lightyellow;
+  	color: #9eedf8;
 	font-family: 'gap_sansblack', sans-serif;
   	font-size: 20px;
   	animation: title 12s;
